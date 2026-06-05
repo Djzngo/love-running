@@ -9,12 +9,6 @@
     box-sizing: border-box;
 }
 
-/* Font Styles */
-
-body {
-    font-family: 'Lato', sans-serif;
-}
-
 /* General styles */
 body {
     min-height: 100vh;
@@ -22,7 +16,11 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-
+    
+    /* Font style */
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 /* Header */
