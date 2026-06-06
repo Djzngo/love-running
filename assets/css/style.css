@@ -95,6 +95,7 @@ nav {
 /* Footer */
 .footer {
     background-color: tomato;
+    display: flex;
 }
 
 /*Media query: tablets and larger (768px and up)*/
