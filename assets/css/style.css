@@ -214,8 +214,15 @@ nav {
     color: #3a3a3a;
 }
 
-/*Media query: tablets and larger (768px and up)*/
+/* Media query: large or lanscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
 
+/*Media query: tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
 
     /* Header */
@@ -274,18 +281,28 @@ nav {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media query: Laptops (992px and up) */
-
 @media screen and (min-width: 992px) {
 
     /* Header */
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /* Gallery */
+    #photos {
+        column-count: 4;
+    }
 }
 
+/* Media query: Desktops (1200px and up) */
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
