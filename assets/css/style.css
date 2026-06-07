@@ -30,6 +30,10 @@ h1, h2, h3 {
     color: #252525;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 hr {
     border-top: 1px solid;
     color: #3a3a3a;
@@ -161,6 +165,28 @@ nav {
 
 #cover-text > h2, #cover-text > h3 {
     color: #ffffff;
+}
+
+#times {
+    background: url("../images/dublin-city.webp") no-repeat center/cover;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#times div {
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens less than 400px */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates space between divs */
+    border: 2px white solid;
+}
+
+#times h3 {
+    color: #fafafa;
 }
 
 /* Footer */
