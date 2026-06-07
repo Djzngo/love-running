@@ -109,7 +109,7 @@ nav {
 /* Reasons section */
 #reasons {
     width: 90%;
-    margin-bottom: 20px;
+    margin: 20px auto;
 }
 
 #reasons > h2 {
@@ -117,7 +117,12 @@ nav {
     margin-bottom: 20px;
 }
 
-#reaons > p {
+/* Benefits */
+#benefits {
+    line-height: 20px;
+}
+/* Physical */
+#feel-healthy > p {
     padding: 0 20px;
 }
 
