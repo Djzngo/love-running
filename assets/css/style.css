@@ -117,13 +117,17 @@ nav {
     margin-bottom: 20px;
 }
 
+#reasons > p {
+    padding: 0 20px;
+}
+
 /* Benefits */
 #benefits {
     line-height: 20px;
 }
-/* Physical */
-#feel-healthy > p {
-    padding: 0 20px;
+
+#feel-healthy, #feel-strong, #feel-free, #get-social {
+    margin-bottom: 20px;
 }
 
 #cover-text {
