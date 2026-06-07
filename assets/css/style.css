@@ -167,6 +167,12 @@ nav {
         /* Push content down */
         margin-top: 79px;
     }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
+    }
 }
 
 /* Media query: Laptops (992px and up) */
